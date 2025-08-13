@@ -5,7 +5,6 @@ def stock_picker(prices)
   highest_price_index = -1
   res = []
   prices.each_with_index do |price, index|
-    puts price
     if price < lowest_price
       lowest_price = price
       lowest_price_index = index
